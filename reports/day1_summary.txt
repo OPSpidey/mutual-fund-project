@@ -1,0 +1,17 @@
+Day 1 Data Quality Summary
+
+Datasets Loaded: 10
+
+Fund Houses: 10
+Categories: 2
+Sub Categories: 12
+Risk Categories: 5
+
+Observations:
+- All datasets loaded successfully.
+- Date fields are currently stored as strings and require datetime conversion.
+- SIP inflow dataset contains missing YoY growth values in initial periods.
+- Dataset structure is clean and suitable for analysis.
+
+AMFI Validation:
+(To be filled after validate_codes.py output)
