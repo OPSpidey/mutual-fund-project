@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 
+
 schemes = {
     "HDFC_Top100": 125497,
     "SBI_Bluechip": 119551,
@@ -32,4 +33,4 @@ for name, code in schemes.items():
         print(f"Saved {filename}")
 
     else:
-        print(f"Failed {name}")python explore_fund_master.py
+        print(f"Failed {name}")
