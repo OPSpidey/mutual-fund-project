@@ -1,75 +1,91 @@
-# 📈 Bluestock Mutual Fund Analytics Capstone
+# 📈 Bluestock Mutual Fund Analytics
 
-<div align="center">
-
-### 🚀 Mutual Fund Analytics & Investment Insights
-
-Transforming raw mutual fund data into interactive dashboards and actionable investment insights.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![SQLite](https://img.shields.io/badge/SQLite-Database-green?style=for-the-badge&logo=sqlite)
-![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-
-</div>
+> **Turning Mutual Fund data into actionable investment insights.**
 
 ---
 
-## 📌 Overview
+## 🎯 Project Highlights
 
-This project analyzes the **Indian Mutual Fund Industry** using Python, SQLite, and Power BI.
-
-It follows a complete analytics workflow—from raw datasets to business insights—covering **ETL, data cleaning, performance analysis, and dashboard development** to help understand mutual fund trends and investor behavior.
-
----
-
-## ✨ Highlights
-
-- ⚙️ Automated ETL Pipeline
-- 🧹 Data Cleaning & Validation
-- 📊 Exploratory Data Analysis (EDA)
-- 📈 NAV & Fund Performance Analysis
-- 💰 SIP & AUM Trend Analysis
-- 📂 Category-wise Investment Analysis
-- 📉 Interactive Power BI Dashboard
-- 💡 Business & Investment Insights
+✅ ETL Pipeline  
+✅ Data Cleaning & Validation  
+✅ Exploratory Data Analysis (EDA)  
+✅ Performance & Risk Analysis  
+✅ Power BI Dashboard  
+✅ Investment Insights
 
 ---
 
-## 🛠️ Tech Stack
+## 📂 Dataset
 
-| Category | Tools |
-|----------|-------|
-| 💻 Language | Python |
-| 📚 Libraries | Pandas, NumPy, Matplotlib, Seaborn |
-| 🗄️ Database | SQLite |
-| 📊 Dashboard | Power BI |
-| 🔧 Tools | Jupyter Notebook, Git, GitHub |
+The project analyzes Indian Mutual Fund data including:
+
+- 📊 Fund Details
+- 📈 Historical NAV
+- 💰 AUM
+- 💵 SIP Inflows
+- 📌 Category Inflows
+- 👥 Folio Statistics
+- ⭐ Fund Performance
+- 🔄 Investor Transactions
+
+---
+
+## 🛠 Tech Stack
+
+- 🐍 Python
+- 🐼 Pandas & NumPy
+- 📊 Power BI
+- 📓 Jupyter Notebook
+
+---
+
+## 🚀 Run Project
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run ETL
+
+```bash
+python scripts/run_pipeline.py
+```
+
+Open Analytics Notebook
+
+```text
+notebooks/05_advanced_analytics.ipynb
+```
+
+Open Dashboard
+
+```text
+dashboard/bluestock_mf_dashboard.pbix
+```
 
 ---
 
 ## 📊 Project Workflow
 
 ```text
-📂 Raw Data
-      │
-      ▼
-🧹 Data Cleaning
-      │
-      ▼
-⚙️ ETL Pipeline
-      │
-      ▼
-✅ Data Validation
-      │
-      ▼
-📊 EDA & Analytics
-      │
-      ▼
-💡 Business Insights
-      │
-      ▼
-📈 Power BI Dashboard
+Raw Data
+    │
+    ▼
+Data Cleaning
+    │
+    ▼
+ETL Pipeline
+    │
+    ▼
+EDA & Analytics
+    │
+    ▼
+Power BI Dashboard
+    │
+    ▼
+Investment Insights
 ```
 
 ---
@@ -77,7 +93,7 @@ It follows a complete analytics workflow—from raw datasets to business insight
 ## 📁 Project Structure
 
 ```text
-mutual-fund-project/
+📦 mutual-fund-project
 ├── data/
 ├── notebooks/
 ├── scripts/
@@ -89,39 +105,6 @@ mutual-fund-project/
 
 ---
 
-## ▶️ Quick Start
+## ✨ Key Outcome
 
-```bash
-git clone <repository-url>
-
-pip install -r requirements.txt
-
-python scripts/run_pipeline.py
-```
-
-Open the Power BI dashboard:
-
-```text
-dashboard/bluestock_mf_dashboard.pbix
-```
-
----
-
-## 📦 Deliverables
-
-- 📊 Interactive Power BI Dashboard
-- 📈 Analytics Notebook
-- 📄 Project Report
-- 📑 Presentation
-- 🗂️ Cleaned Dataset
-- 💻 Source Code
-
----
-
-<div align="center">
-
-### 🌟 From Data → Insights → Better Investment Decisions
-
-⭐ **If you found this project helpful, consider giving it a Star!**
-
-</div>
+This project demonstrates an end-to-end Mutual Fund Analytics pipeline—from raw financial data to interactive dashboards and meaningful investment insights.
